@@ -1,4 +1,3 @@
-# Deepankar
 import os
 from pathlib import Path
 import logging
@@ -35,6 +34,9 @@ list_of_files = [
 
 
 ]
+
+
+
 
 for filepath in list_of_files:
     filepath = Path(filepath)
